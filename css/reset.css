@@ -49,7 +49,8 @@ input,select{
  }
  
 body{
- font-family:'NanumGothicWeb','돋움'; font-size:100%; line-height:1;
+ /*! font-family:'NanumGothicWeb','돋움'; */ font-size:100%; line-height:1;
+ background-color: red;
  }
  
 i,em,address{
