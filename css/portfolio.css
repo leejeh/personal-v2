@@ -1,0 +1,58 @@
+section#portfolio{
+
+  }
+  section#portfolio .wrap{
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  }
+  section#portfolio .wrap h2{
+
+  }
+  section#portfolio .wrap p{
+  
+  }
+  section#portfolio .wrap>ul{
+  margin-top:30px;
+  background-color: #eee;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
+  section#portfolio .wrap ul{
+  
+  margin: 10px;
+  }
+  section#portfolio .wrap ul li{
+  margin: 0 auto;
+  width: 70%;
+  }
+  section#portfolio .wrap ul li img{
+  width: 600px;
+  }
+section#portfolio .wrap ul li div{
+  width: 30%;
+  }
+  section#portfolio .wrap ul li div h3{
+      
+  }
+  section#portfolio .wrap ul li div p{
+      
+  }
+  section#portfolio .wrap ul li div p ul{
+      
+  }
+  section#portfolio .wrap ul li div p ul li{
+      
+  }
+  section#portfolio .wrap ul li div span{
+      
+  }
+  section#portfolio .wrap ul li div span button{
+      
+  }

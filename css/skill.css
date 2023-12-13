@@ -1,0 +1,71 @@
+section#skill{
+  background-color: rgb(255, 255, 255);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section#skill .wrap{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+section#skill .wrap h2{
+font-family: 'Kanit', sans-serif;
+}
+
+section#skill .wrap p{
+
+  line-height: 5;
+}
+section#skill .wrap ul{
+
+  justify-content: center;
+  gap: 40px;
+}
+section#skill .wrap ul li{
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+section#skill .wrap ul li::before{
+  content: "";
+  width: 100px;
+  height: 100px;
+  /*! border-radius: 50%; */
+  margin-bottom: 10px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+section#skill .wrap ul li:nth-child(1)::before{
+  background-image: url(../../img/html.png);
+}
+section#skill .wrap ul li:nth-child(2)::before{
+  background-image: url(../../img/css.png);
+}
+section#skill .wrap ul li:nth-child(3)::before{
+  background-image: url(../../img/jquery.png);
+}
+section#skill .wrap ul li:nth-child(4)::before{
+  background-image: url(../../img/js.png);
+}
+section#skill .wrap ul li:nth-child(5)::before{
+  background-image: url(../../img/zen.png);
+}
+section#skill .wrap ul li:nth-child(6)::before{
+  background-image: url(../../img/sass.png);
+}
+section#skill .wrap ul li:nth-child(7)::before{
+  background-image: url(../../img/ps.png);
+}
+section#skill .wrap ul li:nth-child(8)::before{
+  background-image: url(../../img/ai.png);
+}

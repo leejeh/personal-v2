@@ -1,0 +1,93 @@
+/* 상단영역 */
+header{
+  width: 1440px; /* 너비지정   */
+  margin: 0 auto; /* 중앙정렬 */
+  background-color: rgba(255, 255, 255, 1);
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+header .wrap{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header h1{
+  color:red;
+}
+header h1 a{
+   
+  color: #;
+  font-size: 33px;
+  text-transform: : capitalize;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+header ul{
+  display: flex;
+  gap: 60px;
+  font-weight: bold
+}
+header ul li:hover:nth-child(1){
+  border-bottom: 5px solid;
+  color:#fb4949;
+}
+header ul li:hover:nth-child(2){
+  border-bottom: 5px solid;
+  color:#43c694;
+}
+header ul li:hover:nth-child(3){
+  border-bottom: 5px solid;
+  color:#0054a6;
+}
+header ul li:hover:nth-child(4){
+  border-bottom: 5px solid;
+}
+
+header ul li a{
+  padding:20px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+/* 자식선택자 :바로아래있는선택자(태그) */
+header div.wrap>a{
+
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/menu.svg);
+  background-size: cover;
+}
+/* 타이틀 영역 */
+div#title{
+  background-color: #eee;
+}
+div#title div.wrap{ /* 하위선택자 */
+  width: 100%;
+  margin: 0 auto;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-image: url(https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: top;
+}
+
+div#title div.wrap h2{
+  color:white;
+}
+  
+}
+div h2{
+
+}
+div p{
+
+}

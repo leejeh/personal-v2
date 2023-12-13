@@ -1,0 +1,60 @@
+section#contact{
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  section#contact .wrap{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border-radius: 50px;
+  }
+  section#contact .wrap h2{
+  font-family: 'Kanit', sans-serif
+  }
+  section#contact .wrap p{
+  
+  }
+  section#contact .wrap ul{
+  
+  display: grid;
+  grid-template-rows: auto auto auto;
+  }
+  section#contact .wrap ul li{
+  margin: 10px auto;
+  display: flex;
+  }
+section#contact .wrap ul li:nth-child(1)::before{
+  content:"";
+  background-image: url(../img/call.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+section#contact .wrap ul li:nth-child(2)::before{
+    content:"";
+    background-image: url(../img/kakao.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    grid-column: 2;
+    grid-row: 2;
+}
+section#contact .wrap ul li:nth-child(3)::before{
+    content:"";
+    background-image: url(../img/mail.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+    grid-column: 2;
+    grid-row: 3;
+}
